@@ -5,7 +5,7 @@ resources:
   - namespace.yaml
 configMapGenerator:
   - name: redis-values
-    namespace: cluster-config
+    namespace: this-is-cluster-config-namespace
     files:
       - values.yaml=values.yaml
 configurations:
