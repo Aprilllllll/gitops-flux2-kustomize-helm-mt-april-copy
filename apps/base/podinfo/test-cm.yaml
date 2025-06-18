@@ -4,5 +4,5 @@ metadata:
   name: test-cm
   namespace: this-is-cluster-config-namespace
 data:
-  TODAYS_DATE: 20250618
+  TODAYS_DATE: "20250618"
   WELCOME_MESSAGE: "Hello from ConfigMap!"
