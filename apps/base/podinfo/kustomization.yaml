@@ -3,4 +3,4 @@ kind: Kustomization
 resources:
   - namespace.yaml
   - release.yaml
-  - test-cm.yml
+  - test-cm.yaml
