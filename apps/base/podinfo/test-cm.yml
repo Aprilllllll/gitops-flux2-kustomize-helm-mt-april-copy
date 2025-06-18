@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-cm
+data:
+  TODAYS_DATE: 20250618
+  WELCOME_MESSAGE: "Hello from ConfigMap!"
